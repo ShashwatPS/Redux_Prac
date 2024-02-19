@@ -11,3 +11,5 @@ export const ChangeNumber = createSlice({
         }
     }
 })
+
+export const { IncreaseNumber } = ChangeNumber.actions

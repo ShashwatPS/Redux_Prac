@@ -7,7 +7,7 @@ export const ChangeNumber = createSlice({
     },
     reducers:{
         IncreaseNumber (state, action){
-            state.number = state.number + 1;
+            state.number = state.number + action.payload;
         }
     }
 })
